@@ -10,7 +10,7 @@ export default function Footer() {
             <h3 className="text-white font-bold text-lg mb-4">Swiggy DataAnalysis</h3>
             <p className="mb-4">Data Analysis of Swiggy Database</p>
             <div className="flex space-x-4">
-              <Link href="#" className="hover:text-white">
+              {/* <Link href="#" className="hover:text-white">
                 <Facebook className="h-5 w-5" />
                 <span className="sr-only">Facebook</span>
               </Link>
@@ -25,7 +25,7 @@ export default function Footer() {
               <Link href="#" className="hover:text-white">
                 <Linkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
-              </Link>
+              </Link> */}
             </div>
           </div>
 
@@ -48,14 +48,14 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-white">
+                {/* <Link href="#" className="hover:text-white">
                   Contact
-                </Link>
+                </Link> */}
               </li>
             </ul>
           </div>
 
-          <div>
+          {/* <div>
             <h3 className="text-white font-bold text-lg mb-4">Legal</h3>
             <ul className="space-y-2">
               <li>
@@ -79,30 +79,30 @@ export default function Footer() {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           <div>
             <h3 className="text-white font-bold text-lg mb-4">Contact Us</h3>
             <ul className="space-y-2">
               <li className="flex items-center">
                 <MapPin className="h-5 w-5 mr-2" />
-                <span>123 Food Street, Bangalore, India</span>
+                <span>Durgapur, India</span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-2" />
-                <span>+91 1234567890</span>
+                <span>+91 9056011913</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-2" />
-                <span>info@foodexplorer.com</span>
+                <span>bibekyadav2904@gmail.com</span>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-gray-800 mt-10 pt-6 text-sm text-center">
-          <p>&copy; {new Date().getFullYear()} FoodExplorer. All rights reserved.</p>
-          <p className="mt-2">A DBMS Project Showcase</p>
+          <p>&copy; {new Date().getFullYear()} Swiggy Data Analysis. All rights reserved.</p>
+          <p className="mt-2">DBMS Project Group 10</p>
         </div>
       </div>
     </footer>
