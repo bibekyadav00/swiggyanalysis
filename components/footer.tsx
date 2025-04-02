@@ -7,10 +7,10 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-white font-bold text-lg mb-4">FoodExplorer</h3>
-            <p className="mb-4">Discover the best food from over 100 restaurants and fast delivery to your doorstep.</p>
-            <div className="flex space-x-4">
-              <Link href="#" className="hover:text-white">
+            <h3 className="text-white font-bold text-lg mb-4">Swiggy DataAnalysis</h3>
+            <p className="mb-4">Data Analysis of Swiggy Database</p>
+            {/* <div className="flex space-x-4">
+              {/* <Link href="#" className="hover:text-white">
                 <Facebook className="h-5 w-5" />
                 <span className="sr-only">Facebook</span>
               </Link>
@@ -25,8 +25,8 @@ export default function Footer() {
               <Link href="#" className="hover:text-white">
                 <Linkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
-              </Link>
-            </div>
+              </Link> */}
+            </div> */}
           </div>
 
           <div>
