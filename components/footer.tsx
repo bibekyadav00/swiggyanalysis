@@ -9,8 +9,8 @@ export default function Footer() {
           <div>
             <h3 className="text-white font-bold text-lg mb-4">Swiggy DataAnalysis</h3>
             <p className="mb-4">Data Analysis of Swiggy Database</p>
-            {/* <div className="flex space-x-4">
-              {/* <Link href="#" className="hover:text-white">
+            <div className="flex space-x-4">
+              <Link href="#" className="hover:text-white">
                 <Facebook className="h-5 w-5" />
                 <span className="sr-only">Facebook</span>
               </Link>
@@ -25,8 +25,8 @@ export default function Footer() {
               <Link href="#" className="hover:text-white">
                 <Linkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
-              </Link> */}
-            </div> */}
+              </Link>
+            </div>
           </div>
 
           <div>
