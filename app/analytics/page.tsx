@@ -11,7 +11,7 @@ export default function AnalyticsPage() {
       <main className="flex-grow bg-gray-50">
         <div className="container mx-auto px-4 py-8">
           <h1 className="text-3xl font-bold mb-2">Database Analytics</h1>
-          <p className="text-muted-foreground mb-6">Explore SQL query results and data insights</p>
+          <p className="text-muted-foreground mb-6">Explore SQL query results and data insights for the swiggy dataset</p>
           <Suspense fallback={<AnalyticsSkeleton />}>
             <AnalyticsDashboard />
           </Suspense>

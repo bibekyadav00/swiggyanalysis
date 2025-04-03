@@ -51,7 +51,7 @@ export default function Header() {
 
           <Link href="/" className="flex items-center space-x-2">
             <ShoppingBag className="h-6 w-6 text-primary" />
-            <span className="font-bold text-xl hidden md:inline-block">FoodExplorer</span>
+            <span className="font-bold text-xl hidden md:inline-block">Swiggy Data Analysis</span>
           </Link>
 
           <nav className="hidden md:flex items-center gap-6 text-sm">
